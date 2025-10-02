@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**Logo**/
+
+.content-logo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background-color: rgba(83, 145, 216, 0.938);
+    height: 70px;
+}
+
+.content-logo img.left{
+    height: 55px;
+    width: 20%;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/**Navigations**/
+
+.content-nav{
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    height: 80px;
+    z-index: 500;
+    background-color: rgba(27, 114, 214, 0.938);
+}
+
+.content-nav a{
+    display: block;
+    float: left;
+    width: 28%;
+    padding-top: 34px;
+    padding-left: 54px;
+    color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/**Content Body**/
+
+.bg-pic{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/Background-pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.content-body{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.content-body iframe.facebook-iframe{
+    max-width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    margin: auto;
+}
